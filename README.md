@@ -22,3 +22,6 @@ A minimal media server setup on Ubuntu Server, following [TechHut's guide](https
 3.Access Plex:
 Open http://<server-ip>:32400/web.
 
+SSH: Port 22 (change to a custom port for security).
+
+Lid Suspend: Disabled in /etc/systemd/logind.conf.
