@@ -1,0 +1,14 @@
+3. Plex in Docker (Optional)
+If you want to migrate Plex to Docker, create docker/plex/docker-compose.yml:
+
+yaml
+version: '3'
+services:
+  plex:
+    image: plexinc/pms-docker
+    ports:
+      - "32400:32400/tcp"
+    volumes:
+      - ./config:/config
+      - /path/to/media:/media    # Mount your media library
+    restart: unless-stopped
