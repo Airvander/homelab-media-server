@@ -1,0 +1,3 @@
+SSH: Custom port + key-based auth (configs/ssh/sshd_config).
+
+Lid Suspend: Disabled in configs/system/logind.conf.
