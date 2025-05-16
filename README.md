@@ -64,3 +64,4 @@ Dockerized:
 bash
 cd docker/plex
 docker compose up -d
+
