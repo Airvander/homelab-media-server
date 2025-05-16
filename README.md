@@ -48,3 +48,19 @@ Combines:
 # Run the setup script
 chmod +x scripts/docker_setup.sh
 ./scripts/docker_setup.sh
+
+3. Deploy Services
+bash
+# Start Portainer (Docker management UI)
+cd docker/portainer
+docker compose up -d
+Access Portainer at http://<server-ip>:9000.
+
+4. Plex (Choose One)
+Native Install: See docs/ubuntu_setup.md.
+
+Dockerized:
+
+bash
+cd docker/plex
+docker compose up -d
