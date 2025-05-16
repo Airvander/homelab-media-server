@@ -18,3 +18,7 @@ A minimal media server setup on Ubuntu Server, following [TechHut's guide](https
    wget https://downloads.plex.tv/plex-media-server-new/1.19.3.2852-219a9974e/debian/plexmediaserver_1.19.3.2852-219a9974e_amd64.deb
    sudo dpkg -i plexmediaserver_*.deb
    sudo systemctl enable --now plexmediaserver
+
+3.Access Plex:
+Open http://<server-ip>:32400/web.
+
